@@ -1,0 +1,164 @@
+[['cp', 'ca', 'num'], ['cp', 'thalach', 'num'], ['cp', 'restecg', 'num'], ['cp', 'oldpeak', 'num'], ['cp', 'slope', 'num'], ['cp', 'trestbps', 'num', 'fbs', 'chol'], ['cp', 'Thal', 'num'], ['exang', 'ca', 'num'], ['exang', 'thalach', 'num'], ['exang', 'restecg', 'num'], ['exang', 'oldpeak', 'num'], ['exang', 'slope', 'num'], ['exang', 'trestbps', 'num', 'fbs', 'chol'], ['exang', 'Thal', 'num'], ['fbs', 'ca', 'num'], ['fbs', 'thalach', 'num'], ['fbs', 'restecg', 'num'], ['fbs', 'oldpeak', 'num'], ['fbs', 'slope', 'num'], ['fbs', 'Thal', 'num'], ['ca', 'thalach', 'num'], ['ca', 'restecg', 'num'], ['ca', 'oldpeak', 'num'], ['ca', 'chol', 'num'], ['ca', 'slope', 'num'], ['ca', 'trestbps', 'num'], ['ca', 'Age', 'num'], ['ca', 'Sex', 'num'], ['ca', 'Thal', 'num'], ['thalach', 'restecg', 'num'], ['thalach', 'oldpeak', 'num'], ['thalach', 'chol', 'num'], ['thalach', 'slope', 'num'], ['thalach', 'trestbps', 'num'], ['thalach', 'Age', 'num'], ['thalach', 'Sex', 'num'], ['thalach', 'Thal', 'num'], ['restecg', 'oldpeak', 'num'], ['restecg', 'chol', 'num'], ['restecg', 'slope', 'num'], ['restecg', 'trestbps', 'num'], ['restecg', 'Age', 'num'], ['restecg', 'Sex', 'num'], ['restecg', 'Thal', 'num'], ['oldpeak', 'chol', 'num'], ['oldpeak', 'slope', 'num'], ['oldpeak', 'trestbps', 'num'], ['oldpeak', 'Age', 'num'], ['oldpeak', 'Sex', 'num'], ['oldpeak', 'Thal', 'num'], ['chol', 'slope', 'num'], ['chol', 'Thal', 'num'], ['slope', 'trestbps', 'num'], ['slope', 'Age', 'num'], ['slope', 'Sex', 'num'], ['slope', 'Thal', 'num'], ['trestbps', 'Age', 'num', 'fbs', 'chol'], ['trestbps', 'Sex', 'num', 'fbs', 'chol'], ['trestbps', 'Thal', 'num'], ['Age', 'Sex'], ['Age', 'Thal', 'num'], ['Sex', 'Thal', 'num']]
+age          56.0
+trestbps    130.0
+chol        241.0
+thalach     153.0
+oldpeak       0.8
+dtype: float64
+       age  sex   cp  trestbps   chol  fbs  restecg  thalach  exang  oldpeak  \
+0     True  1.0  1.0      True  False  1.0      2.0    False    0.0     True   
+1     True  1.0  4.0      True   True  0.0      2.0    False    1.0     True   
+2     True  1.0  4.0     False  False  0.0      2.0    False    1.0     True   
+3    False  1.0  3.0     False   True  0.0      0.0     True    0.0     True   
+4    False  0.0  2.0     False  False  0.0      2.0     True    0.0     True   
+5    False  1.0  2.0     False  False  0.0      0.0     True    0.0    False   
+6     True  0.0  4.0      True   True  0.0      2.0     True    0.0     True   
+7     True  0.0  4.0     False   True  0.0      0.0     True    1.0    False   
+8     True  1.0  4.0     False   True  0.0      2.0    False    0.0     True   
+9    False  1.0  4.0      True  False  1.0      2.0     True    1.0     True   
+10    True  1.0  4.0      True  False  0.0      0.0    False    0.0    False   
+11   False  0.0  2.0      True   True  0.0      2.0    False    0.0     True   
+12   False  1.0  3.0     False   True  1.0      2.0    False    1.0    False   
+13   False  1.0  2.0     False   True  0.0      0.0     True    0.0    False   
+14   False  1.0  3.0      True  False  1.0      0.0     True    0.0    False   
+15    True  1.0  3.0      True  False  0.0      0.0     True    0.0     True   
+16   False  1.0  2.0     False  False  0.0      0.0     True    0.0     True   
+17   False  1.0  4.0      True  False  0.0      0.0     True    0.0     True   
+18   False  0.0  3.0     False   True  0.0      0.0    False    0.0    False   
+19   False  1.0  2.0     False   True  0.0      0.0     True    0.0    False   
+20    True  1.0  1.0     False  False  0.0      2.0    False    1.0     True   
+21    True  0.0  1.0      True   True  1.0      2.0     True    0.0     True   
+22    True  1.0  2.0     False   True  0.0      2.0     True    0.0     True   
+23    True  1.0  3.0      True  False  0.0      2.0     True    0.0     True   
+24    True  1.0  4.0     False  False  0.0      2.0    False    1.0     True   
+25   False  0.0  3.0     False  False  0.0      0.0     True    0.0     True   
+26    True  0.0  3.0     False   True  0.0      0.0     True    0.0    False   
+27    True  0.0  1.0      True  False  0.0      0.0    False    0.0     True   
+28   False  1.0  4.0      True   True  0.0      0.0     True    0.0     True   
+29   False  1.0  4.0     False  False  0.0      2.0    False    1.0     True   
+..     ...  ...  ...       ...    ...  ...      ...      ...    ...      ...   
+273   True  0.0  4.0     False  False  0.0      0.0    False    0.0     True   
+274   True  1.0  1.0      True  False  0.0      0.0     True    0.0    False   
+275   True  1.0  1.0      True  False  0.0      2.0     True    0.0    False   
+276   True  0.0  3.0      True   True  0.0      2.0    False    0.0    False   
+277  False  0.0  3.0      True  False  0.0      0.0    False    0.0    False   
+278   True  1.0  2.0      True  False  0.0      2.0     True    0.0    False   
+279   True  0.0  4.0     False  False  0.0      0.0    False    0.0    False   
+280   True  1.0  4.0     False   True  0.0      0.0    False    1.0     True   
+281  False  1.0  3.0     False   True  0.0      0.0     True    0.0    False   
+282  False  0.0  4.0     False  False  0.0      1.0    False    1.0     True   
+283  False  1.0  2.0     False  False  0.0      0.0     True    0.0    False   
+284   True  1.0  4.0      True  False  0.0      0.0     True    0.0    False   
+285   True  1.0  4.0     False   True  0.0      1.0    False    0.0     True   
+286   True  0.0  4.0      True  False  1.0      2.0    False    1.0     True   
+287   True  1.0  2.0     False  False  0.0      0.0    False    0.0    False   
+288  False  1.0  2.0     False  False  0.0      2.0     True    0.0    False   
+289  False  1.0  2.0     False  False  0.0      0.0     True    0.0    False   
+290   True  1.0  3.0      True  False  0.0      2.0    False    0.0    False   
+291  False  0.0  2.0      True   True  0.0      0.0     True    0.0     True   
+292  False  1.0  4.0     False  False  0.0      0.0    False    1.0     True   
+293   True  1.0  4.0      True  False  0.0      2.0    False    1.0     True   
+294   True  0.0  4.0     False  False  0.0      0.0    False    1.0    False   
+295  False  1.0  2.0     False  False  0.0      0.0     True    0.0    False   
+296   True  1.0  4.0      True  False  1.0      2.0    False    0.0     True   
+297   True  0.0  4.0      True  False  0.0      0.0    False    1.0    False   
+298  False  1.0  1.0     False   True  0.0      0.0    False    0.0     True   
+299   True  1.0  4.0      True  False  1.0      0.0    False    0.0     True   
+300   True  1.0  4.0     False  False  0.0      0.0    False    1.0     True   
+301   True  0.0  2.0     False  False  0.0      2.0     True    0.0    False   
+302  False  1.0  3.0      True  False  0.0      0.0     True    0.0    False   
+
+     slope   ca thal  num  
+0      3.0  0.0  6.0    0  
+1      2.0  3.0  3.0    2  
+2      2.0  2.0  7.0    1  
+3      3.0  0.0  3.0    0  
+4      1.0  0.0  3.0    0  
+5      1.0  0.0  3.0    0  
+6      3.0  2.0  3.0    3  
+7      1.0  0.0  3.0    0  
+8      2.0  1.0  7.0    2  
+9      3.0  0.0  7.0    1  
+10     2.0  0.0  6.0    0  
+11     2.0  0.0  3.0    0  
+12     2.0  1.0  6.0    2  
+13     1.0  0.0  7.0    0  
+14     1.0  0.0  7.0    0  
+15     1.0  0.0  3.0    0  
+16     3.0  0.0  7.0    1  
+17     1.0  0.0  3.0    0  
+18     1.0  0.0  3.0    0  
+19     1.0  0.0  3.0    0  
+20     2.0  0.0  3.0    0  
+21     1.0  0.0  3.0    0  
+22     2.0  0.0  3.0    1  
+23     1.0  2.0  7.0    3  
+24     2.0  2.0  7.0    4  
+25     2.0  0.0  3.0    0  
+26     1.0  0.0  3.0    0  
+27     3.0  0.0  3.0    0  
+28     1.0  0.0  3.0    0  
+29     2.0  0.0  7.0    3  
+..     ...  ...  ...  ...  
+273    2.0  0.0  3.0    0  
+274    1.0  2.0  3.0    1  
+275    2.0  0.0  7.0    0  
+276    2.0  1.0  3.0    0  
+277    2.0  0.0  3.0    0  
+278    1.0  1.0  3.0    1  
+279    2.0  0.0  3.0    0  
+280    2.0  1.0  7.0    2  
+281    1.0  0.0  3.0    0  
+282    2.0  1.0  7.0    3  
+283    1.0  0.0  3.0    0  
+284    1.0  1.0  7.0    2  
+285    3.0  3.0  6.0    4  
+286    2.0  2.0  6.0    2  
+287    2.0    ?  7.0    0  
+288    1.0  0.0  7.0    0  
+289    3.0  0.0  3.0    0  
+290    2.0  0.0  7.0    1  
+291    1.0  0.0  3.0    0  
+292    3.0  0.0  6.0    2  
+293    1.0  2.0  7.0    2  
+294    2.0  0.0  3.0    1  
+295    1.0  0.0  3.0    0  
+296    2.0  2.0  6.0    3  
+297    2.0  0.0  7.0    1  
+298    2.0  0.0  7.0    1  
+299    2.0  2.0  7.0    2  
+300    2.0  1.0  7.0    3  
+301    2.0  1.0  3.0    1  
+302    1.0    ?  3.0    0  
+
+[303 rows x 14 columns]
+cp and oldpeak are  dependent given ['num']
+effect size = 0.43626743727751777
+0.011028759792580445
+exang and thalach are  dependent given ['num']
+effect size = 0.41649772602405216
+0.006265886405995236
+fbs and ca are  dependent given ['num']
+effect size = 0.46312485408484716
+0.010511655849716361
+ca and age are  dependent given ['num']
+effect size = 0.4817054697309406
+0.007076949570464897
+thalach and slope are  dependent given ['num']
+effect size = 0.8276253063131302
+1.7250533146384583e-06
+thalach and age are  dependent given ['num']
+effect size = 0.45558106965700795
+0.0033009178368617054
+thalach and thal are  dependent given ['num']
+effect size = 0.35108995982893976
+0.04793932464994066
+restecg and chol are  dependent given ['num']
+effect size = 0.35296507673161354
+0.030478990520818372
+oldpeak and slope are  dependent given ['num']
+effect size = 1.151349936443901
+8.276490603975617e-10
+sex and thal are  dependent given ['num']
+effect size = 0.5862403256722045
+0.00041183761905361216
